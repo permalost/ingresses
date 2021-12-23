@@ -46,3 +46,8 @@ spec:
                 name: unifi
                 port: 
                   name: https
+  defaultBackend:
+    service:
+      name: unifi
+      port:
+        number: 80
